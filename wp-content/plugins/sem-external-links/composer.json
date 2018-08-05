@@ -1,0 +1,6 @@
+{
+  "name": "semiologic/sem-external-links",
+  "description": "External Links",
+  "type": "wordpress-plugin",
+  "require": {}
+}
