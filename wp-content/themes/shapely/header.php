@@ -59,17 +59,17 @@ if (1 == $shapely_transparent_header && $shapely_transparent_header_opacity) {
                                 <?php shapely_header_menu(); ?>
                             </div>
                             <!--end of menu module-->
-                            <div class="module widget-handle search-widget-handle hidden-xs hidden-sm">
-                                <div class="search">
-                                    <i class="fa fa-search"></i>
-                                    <span class="title"><?php esc_html_e('Site Search', 'shapely'); ?></span>
-                                </div>
-                                <div class="function">
-                                    <?php
-                                    get_search_form();
-                                    ?>
-                                </div>
-                            </div>
+<!--                            <div class="module widget-handle search-widget-handle hidden-xs hidden-sm">-->
+<!--                                <div class="search">-->
+<!--                                    <i class="fa fa-search"></i>-->
+<!--                                    <span class="title">--><?php //esc_html_e('Site Search', 'shapely'); ?><!--</span>-->
+<!--                                </div>-->
+<!--                                <div class="function">-->
+<!--                                    --><?php
+//                                    get_search_form();
+//                                    ?>
+<!--                                </div>-->
+<!--                            </div>-->
                         </div>
                         <!--end of module group-->
                     </div>
