@@ -134,7 +134,7 @@ svg:not(:root) {
 }
 
 figure {
-	padding: 1em;
+	
 }
 
 hr {
@@ -2322,6 +2322,7 @@ button[type="submit"] {
 
 .feature {
 	margin-bottom: 24px;
+	border:3px solid #ffacee;       padding:3px; margin:3px;
 }
 
 .feature p:last-child {

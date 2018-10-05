@@ -1,0 +1,54 @@
+// WARNING : This will load -outside- the #maxbutton namespacing, potentially affecting WP in general
+
+/* Modal */
+
+ // colorpicker
+ .mb_colorpicker {
+ 	z-index: 200;
+
+ }
+
+
+.ads
+{
+	.button-primary {
+		display: block;
+		margin: 0 auto 20px auto;
+		width: 210px;
+		text-align: center;
+		overflow: visible;
+	}
+}
+
+.max-load-spinner {
+	background: url('/wp-admin/images/wpspin_light.gif') no-repeat;
+	background-size: 16px 16px;
+	opacity: .9;
+	//filter: alpha(opacity=70);
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	vertical-align: middle;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -8px;
+	margin-top: -8px;
+	z-index: 10;
+  &.large {
+      background: url('/wp-admin/images/wpspin_light-2x.gif') no-repeat;
+      width: 32px;
+      height: 32px;
+    }
+}
+
+.max-load-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	opacity: 0.80;
+	background-color: #f0f0f0;
+	z-index: 9;
+}

@@ -1,0 +1,133 @@
+.media-popup
+{
+	.modal_content {
+			min-height: 250px;
+			max-height: 100%;
+			margin-bottom: 45px;
+	}
+
+	.ajax-content {
+		margin: 0;
+		overflow-y: auto;
+
+		.button-list {
+			display: flex;
+			margin: 25px 0;
+			padding: 8px 0;
+
+			.button-id {
+				flex: 1;
+			}
+			.button-preview {
+				flex: 3;
+				overflow: hidden;
+			}
+			.button-name {
+				flex: 1;
+			}
+
+		}
+
+		 .button-select {
+		 	cursor: pointer;
+		 	border: 1px solid #fff;
+		 }
+		 .button-select.selected {
+		 	border-top: 1px solid #0085ba;
+		 	border-bottom: 1px solid #0085ba;
+		 	background: #f7f7f7;
+		}
+	}
+
+	.tablenav  {
+		//width: 100%;
+		margin: 10px 0;
+		clear: both;
+		min-height: 20px;
+		span {
+			font-size: 15px;
+		//	font-weight: 700;
+		//	float: left;
+			cursor: pointer;
+		}
+		//.next { float: right; }
+		.input-paging { width: 55px; }
+		a:hover {
+			color: #000;
+		}
+		a.disabled {
+			color: #aaa;
+			cursor: default;
+		}
+	}
+
+	.shortcode-options {
+		//width: 400px;
+		margin: 0 auto 35px auto;
+		display: inline-block;
+		.button-preview {
+			overflow: hidden;
+		}
+		h3 {
+			//margin-bottom: 15px;
+		}
+		.option {
+			clear: both;
+			margin: 15px 0;
+		}
+		.input {
+			display: inline-block;
+
+		}
+		input {
+			display: inline-block;
+			padding: 4px;
+
+		}
+
+		label {
+			margin-right: 25px;
+			display:inline-block;
+
+			width: 150px;
+			line-height: 20px;
+			font-weight: 700;
+			color: #000;
+		}
+
+		p {
+			clear: both;
+		}
+		input[type='button'] {
+			clear:  both;
+			float: none;
+		}
+		.more-field { display: none; }
+
+	}
+
+	.maxajax-load-spinner {
+		background: rgba(0, 0, 0, 0) url("../../images/spinner.gif") no-repeat scroll 0 0 / 20px 20px;
+		display: inline-block;
+	//	float: right;
+		margin: 5px 5px 0 0;
+		height: 40px;
+		opacity: 0.7;
+		vertical-align: middle;
+	//	visibility: hidden;
+		width: 40px;
+
+	}
+	.controls {
+		position: absolute;
+		width: 100%;
+		padding: 10px 0;
+		background: #f3f3f3;
+		text-align: right;
+		bottom: 0;
+		left: 0;
+		border-top: 1px solid #ccc;
+
+	}
+
+}

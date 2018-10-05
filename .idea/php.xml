@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PhpIncludePathManager">
+    <include_path>
+      <path value="$PROJECT_DIR$/wiki/vendor/composer" />
+      <path value="$PROJECT_DIR$/wiki/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/wiki/vendor/oojs/oojs-ui" />
+      <path value="$PROJECT_DIR$/wiki/vendor/pear/mail_mime" />
+      <path value="$PROJECT_DIR$/wiki/vendor/pear/net_smtp" />
+      <path value="$PROJECT_DIR$/wiki/vendor/pear/mail_mime-decode" />
+      <path value="$PROJECT_DIR$/wiki/vendor/pear/mail" />
+      <path value="$PROJECT_DIR$/wiki/vendor/pear/pear_exception" />
+      <path value="$PROJECT_DIR$/wiki/vendor/pear/console_getopt" />
+      <path value="$PROJECT_DIR$/wiki/vendor/pear/net_socket" />
+      <path value="$PROJECT_DIR$/wiki/vendor/pear/pear-core-minimal" />
+      <path value="$PROJECT_DIR$/wiki/vendor/nmred/kafka-php" />
+      <path value="$PROJECT_DIR$/wiki/vendor/ruflin/elastica" />
+      <path value="$PROJECT_DIR$/wiki/vendor/liuggio/statsd-php-client" />
+      <path value="$PROJECT_DIR$/wiki/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/wiki/vendor/symfony/process" />
+      <path value="$PROJECT_DIR$/wiki/vendor/zordius/lightncandy" />
+      <path value="$PROJECT_DIR$/wiki/vendor/cssjanus/cssjanus" />
+      <path value="$PROJECT_DIR$/wiki/vendor/firebase/php-jwt" />
+      <path value="$PROJECT_DIR$/wiki/vendor/oyejorge/less.php" />
+      <path value="$PROJECT_DIR$/wiki/vendor/mediawiki/at-ease" />
+      <path value="$PROJECT_DIR$/wiki/vendor/wikimedia/cdb" />
+      <path value="$PROJECT_DIR$/wiki/vendor/wikimedia/base-convert" />
+      <path value="$PROJECT_DIR$/wiki/vendor/wikimedia/php-session-serializer" />
+      <path value="$PROJECT_DIR$/wiki/vendor/wikimedia/wrappedstring" />
+      <path value="$PROJECT_DIR$/wiki/vendor/wikimedia/running-stat" />
+      <path value="$PROJECT_DIR$/wiki/vendor/wikimedia/ip-set" />
+      <path value="$PROJECT_DIR$/wiki/vendor/wikimedia/html-formatter" />
+      <path value="$PROJECT_DIR$/wiki/vendor/wikimedia/textcat" />
+      <path value="$PROJECT_DIR$/wiki/vendor/wikimedia/assert" />
+      <path value="$PROJECT_DIR$/wiki/vendor/wikimedia/cldr-plural-rule-parser" />
+      <path value="$PROJECT_DIR$/wiki/vendor/wikimedia/relpath" />
+      <path value="$PROJECT_DIR$/wiki/vendor/wikimedia/composer-merge-plugin" />
+      <path value="$PROJECT_DIR$/wiki/vendor/wikimedia/avro" />
+      <path value="$PROJECT_DIR$/wiki/vendor/wikimedia/utfnormal" />
+      <path value="$PROJECT_DIR$/wiki/vendor/justinrainbow/json-schema" />
+    </include_path>
+  </component>
+  <component name="PhpProjectSharedConfiguration" php_language_level="5.5.0" />
+  <component name="PhpUnit">
+    <phpunit_settings>
+      <PhpUnitSettings load_method="CUSTOM_LOADER" custom_loader_path="$PROJECT_DIR$/wiki/vendor/autoload.php" />
+    </phpunit_settings>
+  </component>
+</project>
